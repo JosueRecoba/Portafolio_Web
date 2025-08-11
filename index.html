@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Josue Recoba Huerta</title>
+  <link rel="icon" href="assets/img/LOGOJR.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="menu-icon" id="menu-btn">
+      ☰
+    </div>
+    <div class="logo">JR</div>
+    <nav id="nav-links">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#about">Acerca de mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Cortina lateral -->
+  <div class="side-menu" id="side-menu">
+    <button class="close-btn" id="close-btn">×</button>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#about">Acerca de mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <h1 class="typing-text"></h1>
+      <p>Ingeniero en Desarrollo y Gestión de Software<br>Apasionado por el Diseño UX / UI</p>
+      <a href="assets/cv/cv_josuerecoba.pdf" class="btn" download>Descargar CV</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <img src="assets/img/yo.png" alt="Foto de Josué">
+      <div>
+        <h2>Acerca de mí</h2>
+        <p>
+          Mi nombre es Josue Recoba Huerta, tengo 23 años y vivo en Querétaro.
+          Soy Ingeniero en Desarrollo y Gestión de Software y me encanta el mundo de la tecnología. Me gusta aprender cosas nuevas día con día y encontrar formas creativas de poner ese conocimiento en práctica.
+          Disfruto crear soluciones que realmente ayuden a las personas, ya sea a través de un buen diseño, una interfaz fácil de usar o una herramienta que les haga la vida más sencilla. Me gusta trabajar con diseño UX/UI, la edición de fotos en Photoshop y explorar ideas que combinen creatividad y funcionalidad.
+          También manejo herramientas como Microsoft Office y Google Workspace.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+<section id="proyectos" class="projects">
+  <h2>Mis Proyectos</h2>
+  <div class="carousel">
+
+    <div class="card-flip">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="assets/img/diseño1.jpg" alt="Landing Page Profesional">
+          <h3>Landing Page Profesional</h3>
+          <button class="btn flip-btn">Saber más</button>
+        </div>
+        <div class="card-back">
+          <h3>Landing Page Profesional</h3>
+          <ul>
+            <li>Landing page moderna y responsiva</li>
+            <li>Formulario de contacto con EmailJS</li>
+            <li>Diseño atractivo y funcional</li>
+            <li>Tecnologías: HTML, CSS, JS</li>
+          </ul>
+          <button class="btn flip-btn">Volver</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-flip">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="assets/img/diseño2.jpg" alt="Aplicación CRUD">
+          <h3>Aplicación CRUD</h3>
+          <button class="btn flip-btn">Saber más</button>
+        </div>
+        <div class="card-back">
+          <h3>Aplicación CRUD</h3>
+          <ul>
+            <li>Gestión de datos: crear, leer, actualizar, eliminar</li>
+            <li>Base de datos MySQL o Firebase</li>
+            <li>Interfaz tipo dashboard</li>
+            <li>Tecnologías: HTML, CSS, JS, PHP/MySQL</li>
+          </ul>
+          <button class="btn flip-btn">Volver</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-flip">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="assets/img/diseño3.jpg" alt="Web App con APIs">
+          <h3>Web App con APIs</h3>
+          <button class="btn flip-btn">Saber más</button>
+        </div>
+        <div class="card-back">
+          <h3>Web App con APIs</h3>
+          <ul>
+            <li>Consume APIs externas para mostrar datos en tiempo real</li>
+            <li>Filtrado y búsqueda avanzada</li>
+            <li>Interfaz responsive y amigable</li>
+            <li>Tecnologías: HTML, CSS, JS (fetch)</li>
+          </ul>
+          <button class="btn flip-btn">Volver</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-flip">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="assets/img/diseño4.jpg" alt="Tienda Virtual">
+          <h3>Tienda Virtual Simple</h3>
+          <button class="btn flip-btn">Saber más</button>
+        </div>
+        <div class="card-back">
+          <h3>Tienda Virtual Simple</h3>
+          <ul>
+            <li>Catálogo con imágenes y precios</li>
+            <li>Carrito funcional (agregar/eliminar)</li>
+            <li>Simulación de proceso de pago</li>
+            <li>Tecnologías: HTML, CSS, JS, localStorage</li>
+          </ul>
+          <button class="btn flip-btn">Volver</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <form id="contact-form">
+      <input type="text" name="from_name" placeholder="Tu nombre" required>
+      <input type="email" name="from_email" placeholder="Tu correo" required>
+      <textarea name="message" placeholder="Tu mensaje" required></textarea>
+      <button type="submit" id="button">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Josué Recoba Huerta. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Librería EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init('tm_hgWThA3CtjNSse');
+</script>
+
+  <!-- JS -->
+ <script src="js/main.js"></script>
+
+</body>
+</html>

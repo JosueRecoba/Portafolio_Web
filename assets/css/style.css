@@ -172,6 +172,13 @@ body {
   box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
 }
 
+.about-text{
+  text-align: justify;
+}
+
+.about-text-1{
+  text-align: center;
+}
 /* PROYECTOS */
 .projects {
   padding: 100px 20px;
